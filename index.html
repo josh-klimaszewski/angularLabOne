@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <div class="container" ng-controller="FormController as form">
             <p class="heading">TODO List</p>
             <p>A place to store the things you need to do!</p>
-            <input type="text" ng-model="todoFilter" placeholder="Filter your to-dos">
+            <input type="text" ng-model="todoFilter" placeholder="  Filter your to-dos">
             <ol>
                 <li ng-repeat="item in form.items | filter: todoFilter track by $index">
                     {{ item.item }}
@@ -21,7 +22,7 @@
                 </li>
             </ol>
 
-            <input id="addInput" type="text" ng-model="todoAdd" placeholder="Add to your to-do">
+            <input id="addInput" type="text" ng-model="todoAdd" placeholder="  Add to your to-do">
             <button class="saveButton" ng-click="form.updateInfo(todoAdd)">Add</button>
 
         </div>
