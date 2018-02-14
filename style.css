@@ -1,8 +1,5 @@
 * {
    box-sizing: border-box; 
-   
-   
-
 }
 main {
     margin: 0 auto;
@@ -11,9 +8,6 @@ main {
     background: linear-gradient(to right, #f857a6, #ff5858);
     font-family: Open, sans-serif;
     font-weight: 300;
-    
-    
-
 }
 .container {
     display: flex;
@@ -34,13 +28,10 @@ ol {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 li {
     padding: 2px;
-    margin-left: -20px;
-    
-    
+    margin-left: -20px;   
 }
 input {
     margin: 5% 0;
@@ -48,17 +39,10 @@ input {
     background-color: #eee;
     border-radius: 3px;
     border: 1px solid #bbb;
-    
-    
-    
-
-    
-
 }
 .heading {
     font-size: 1.5em;
     line-height: 0.2;
-    
 }
 .xout {
     border: none;
@@ -69,7 +53,6 @@ input {
     height: 30px;
     background-color: #e41d98;
     color: #eee;
-
 }
 li:hover {
     background-color: lightgrey;
@@ -79,5 +62,4 @@ button:focus, input:focus {
 }
 .saveButton:hover {
     background-color: #ff0000;
-
 }
